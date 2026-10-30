@@ -1,0 +1,161 @@
+{
+  "value": [
+    {
+      "name": "AlzaNEO pronájem",
+      "description": "Pronájem elektroniky za bombasticky nízké ceny.",
+      "iconUri": "https://cdn.alza.cz/images/promoSection/alza-neo.svg",
+      "link": {
+        "href": "https://www.alza.cz/produkty-k-pronajmu/e15.htm",
+        "appLink": "webView",
+        "enabled": true,
+        "analytics": {
+          "actions": {
+            "onClick": {
+              "data": {
+                "custom_event_group": "local_title_promo_sections",
+                "custom_event_name": "click_promo_section",
+                "custom_event_p1": "1",
+                "custom_event_p2": "AlzaNEO pronájem"
+              },
+              "event": "custom_event",
+              "reportAction": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Dárkové poukazy",
+      "description": "Dárkové poukazy pro všechny příležitosti",
+      "iconUri": "https://cdn.alza.cz/images/promoSection/vouchery.svg",
+      "link": {
+        "href": "https://www.alza.cz/18848934.htm",
+        "appLink": "webView",
+        "enabled": true,
+        "analytics": {
+          "actions": {
+            "onClick": {
+              "data": {
+                "custom_event_group": "local_title_promo_sections",
+                "custom_event_name": "click_promo_section",
+                "custom_event_p1": "1",
+                "custom_event_p2": "Dárkové poukazy"
+              },
+              "event": "custom_event",
+              "reportAction": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Alza pro firmy",
+      "description": "Zboží za lepší ceny a nadstandardní služby pro firmy",
+      "iconUri": "https://cdn.alza.cz/images/promoSection/b2b.svg",
+      "link": {
+        "href": "https://www.alza.cz/pro-firmy",
+        "appLink": "webView",
+        "enabled": true,
+        "analytics": {
+          "actions": {
+            "onClick": {
+              "data": {
+                "custom_event_group": "local_title_promo_sections",
+                "custom_event_name": "click_promo_section",
+                "custom_event_p1": "1",
+                "custom_event_p2": "Alza pro firmy"
+              },
+              "event": "custom_event",
+              "reportAction": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Cenové bomby",
+      "description": "Denně nálož nízkých cen",
+      "iconUri": "https://cdn.alza.cz/Foto/ImgGalery/Image/cenove-bomby.jpg",
+      "link": {
+        "href": "https://www.alza.cz/vyprodej-akce-sleva/e0.htm",
+        "appLink": "webView",
+        "enabled": true,
+        "analytics": {
+          "actions": {
+            "onClick": {
+              "data": {
+                "custom_event_group": "local_title_promo_sections",
+                "custom_event_name": "click_promo_section",
+                "custom_event_p1": "1",
+                "custom_event_p2": "Cenové bomby"
+              },
+              "event": "custom_event",
+              "reportAction": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Naše značky",
+      "description": "Kvalita za skvělou cenu. Většina produktů se zárukou 3 až 5 let.",
+      "iconUri": "https://cdn.alza.cz/Images/promoSection/alza-icon.svg",
+      "link": {
+        "href": "https://www.alza.cz/nase-znacky-predstaveni",
+        "appLink": "webView",
+        "enabled": true,
+        "analytics": {
+          "actions": {
+            "onClick": {
+              "data": {
+                "custom_event_group": "local_title_promo_sections",
+                "custom_event_name": "click_promo_section",
+                "custom_event_p1": "1",
+                "custom_event_p2": "Naše značky"
+              },
+              "event": "custom_event",
+              "reportAction": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Napište nám",
+      "description": "Potřebujete s nečím poradit?",
+      "iconUri": "https://cdn.alza.cz/Images/promoSection/chat.svg",
+      "link": {
+        "href": "https://www.alza.cz/contact-and-support",
+        "appLink": "webView",
+        "enabled": true,
+        "analytics": {
+          "actions": {
+            "onClick": {
+              "data": {
+                "custom_event_group": "local_title_promo_sections",
+                "custom_event_name": "click_promo_section",
+                "custom_event_p1": "1",
+                "custom_event_p2": "Napište nám"
+              },
+              "event": "custom_event",
+              "reportAction": null
+            }
+          }
+        }
+      }
+    }
+  ],
+  "analytics": {
+    "actions": {
+      "onView": {
+        "data": {
+          "custom_event_group": "local_title_promo_sections",
+          "custom_event_name": "view_promo_sections",
+          "custom_event_p1": "1"
+        },
+        "event": "custom_event",
+        "reportAction": null
+      }
+    }
+  }
+}

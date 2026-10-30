@@ -1,0 +1,35 @@
+{
+  "name": "Alza.cz",
+  "short_name": "Alza",
+  "theme_color": "#00275b",
+  "background_color": "#00275b",
+  "icons": [
+    {
+      "src": "Images/appIcons/android/android-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "Images/appIcons/android/android-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "cz.alza.eshop",
+      "url": "https://play.google.com/store/apps/details?id=cz.alza.eshop"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/cz/app/alza/id582287621"
+    }
+  ],
+  "gcm_user_visible_only": true,
+  "gcm_sender_id": "338822479972"
+}
